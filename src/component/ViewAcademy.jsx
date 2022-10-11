@@ -60,9 +60,9 @@ const ViewAcademy = () =>{
 
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" bg="light" variant="light" >
+            <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
                     <Container fluid>
-                        <Navbar.Brand class="academy"href="/viewacademy">Abacus academy<a href="/"></a></Navbar.Brand>
+                        <Navbar.Brand class="academy" href="/viewacademy">Abacus academy<a href="/"></a></Navbar.Brand>
                         <Navbar.Toggle aria-controls="navbarScroll" />
                         <Navbar.Collapse id="navbarScroll">
                         <Nav

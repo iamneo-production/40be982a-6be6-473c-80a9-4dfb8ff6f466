@@ -70,7 +70,7 @@ container{
 
 .sign{
   font-size:20px;
-  margin-left:20px;
+  margin-left:100px;
 }
 
 h1 {
@@ -82,9 +82,9 @@ h1 {
 
 #enrolledCourse{
   
-  background-image: url(https://www.centralparkjakarta.com/wp-content/uploads/2018/02/background-form-background.jpg); 
+  background-image: url(https://miro.medium.com/max/3002/1*dP81IJq-tGFxy1rIK3RYsg.png); 
   text-align: center;
-  background-position: 15em;
+  background-position: 50em;
   margin-top: 20px;
   border-radius: 10px;
   padding: 20px;
@@ -96,13 +96,18 @@ lable{
   padding:20px;
 }
 .edit-b {
-  margin-top: 10px;
+  margin-top: 12px;
   width:100px;
-
+  background-color:rgb(250, 212, 23);
+  padding:5px;
+  border-radius:5px;
 }
 .delete-b {
   margin-top: 10px;
   width:100px;
+  background-color:rgb(22, 122, 230);
+  padding:5px;
+  border-radius:5px;
   
 }
 .add-b{
@@ -111,28 +116,67 @@ lable{
 .date-c{
   height: 300px;
   padding:30px;
-  background-color: aqua;
+  background-color: rgb(208, 234, 114);
 }
 .heading {
-  color:rgb(255, 0, 0);
-  text-decoration: underline rgb(80, 252, 255);
+  color:rgba(21, 255, 0, 0.765);
+  text-decoration: underline rgb(201, 32, 97);
+  text-decoration-thickness: 5px;
   font-weight: 1000;
 }
 #userEnrolledCourse{
-  color: #fa1f0b;
+
   font-style: 1200;
+  margin-left: 50px;
   font-size:20px;
-  font-family:"Lucida Handwriting";
+  font-family:"Sans-serif";
 }
 
 #logout{
-  color: #fa230b;
-  font-style: 600;
+  color: #11d811;
   font-size:20px;
-  font-family:"Lucida Handwriting";
+  font-weight:700;
+  font-family:"Sans-serif";
 }
 .academy{
   font-style: 600;
   font-size:20px;
-  font-family:"Lucida Handwriting";
+  color:yellowgreen;
+  font-family:"Sans-serif";
+  
+}
+.abacus-heading{
+  color:black;
+  font-size: 20px;
+  font-weight:500;
+}
+#userAcademy{
+  color: #fa230b;
+  font-family:"Sans-serif";
+  font-size:20px;
+  font-weight:1000;
+}
+tr{
+  color:white;
+}
+#userEnrolledCourse{
+  font-weight:1000;
+}
+.container-5{
+  background-image: url(https://miro.medium.com/max/3002/1*dP81IJq-tGFxy1rIK3RYsg.png);
+}
+
+.container-6{
+  background-image: url(https://miro.medium.com/max/3002/1*dP81IJq-tGFxy1rIK3RYsg.png);
+  height:50vh;
+  width: 150vh;
+}
+.container-7{
+  text-align: center;
+  background-image: url(https://www.psu.com/wp/wp-content/uploads/2020/08/Alto-Collection-1.jpg);
+  color:white;
+  height:30vh;
+}
+.container-4{
+  background-image: url(https://www.psu.com/wp/wp-content/uploads/2020/08/Alto-Collection-1.jpg);
 }

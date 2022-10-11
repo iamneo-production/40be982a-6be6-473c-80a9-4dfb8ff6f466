@@ -124,12 +124,12 @@ const Enrolledcourse = ({props}) =>{
                             </Row>
                             <Row>
                                 <Col>
-                                    <button type="button" class=" edit-b btn btn-primary" aria-label="Left Align" onClick={()=>{handleEdit(val)}}>
+                                    <button type="button" class=" edit-b " aria-label="Left Align" onClick={()=>{handleEdit(val)}}>
                                         edit
                                     </button>
                                 </Col>
                                 <Col>
-                                    <button type="button" class=" delete-b btn btn-danger" aria-label="Left Align"  onClick={()=>{handleDelete(val)}}>
+                                    <button type="button" class=" delete-b " aria-label="Left Align"  onClick={()=>{handleDelete(val)}}>
                                         delete
                                     </button>
                                 </Col>

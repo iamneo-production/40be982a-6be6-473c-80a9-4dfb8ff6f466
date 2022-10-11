@@ -58,14 +58,16 @@ const Login = ()=>{
     }
 
     return(
-            <center>
-                <h1 class="heading">ABACUS ACADEMY ADMISSION PORTAL</h1>
-            <div class="container  col-7 mt-5 mb-10 d-inline-block" style={{height:"93vh",minHeight:"23rem",display:"flex",alignItems:"center"}}>
+            <left>
+                <h1 class="heading">
+                    
+                    ABACUS ACADEMY ADMISSION PORTAL</h1>
+            <div class="container  col-12 mt-5 mb-10 d-inline-block" style={{height:"93vh",minHeight:"23rem",display:"flex",alignItems:"center"}}>
                 
                 <div  class="container col-3 mt-2  mb-5">
                 
                     
-                    <h3> Login</h3>
+                    <h3 class="login-page"> Login</h3>
                     <select class="form-select" id="user/admin" aria-label="Default select example" ref={role}>
                         <option value="" selected>Admin/User</option>
                         <option value="USER">User</option>
@@ -79,7 +81,7 @@ const Login = ()=>{
                 </div> 
             </div>
            
-           </center>
+           </left>
     
     )
 }
