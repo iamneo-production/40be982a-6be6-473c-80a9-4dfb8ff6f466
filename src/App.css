@@ -1,0 +1,182 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.image{
+  background-image: url(https://www.wallpapertip.com/wmimgs/81-810819_vector-background-for-website.jpg);
+  height: 100vh;
+  background-size: fill;
+  
+  
+}
+
+h3{
+  color:white;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size:80px;
+}
+.signup-container {
+  text-align:center;
+}
+container{
+  text-align:center;
+}
+.login-button {
+  text-align: center;
+  margin-left:5px;
+}
+.para{
+  color:white;
+  font-size: 20px;
+  padding-top:15px;
+  text-align: center;
+}
+
+.sign{
+  font-size:20px;
+  margin-left:100px;
+}
+
+h1 {
+  color: aliceblue;
+  
+  text-align: center;
+  padding-top:20px;
+}
+
+#enrolledCourse{
+  
+  background-image: url(https://miro.medium.com/max/3002/1*dP81IJq-tGFxy1rIK3RYsg.png); 
+  text-align: center;
+  background-position: 50em;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  
+}
+
+lable{
+  color:white;
+  padding:20px;
+}
+.edit-b {
+  margin-top: 12px;
+  width:100px;
+  background-color:rgb(250, 212, 23);
+  padding:5px;
+  border-radius:5px;
+}
+.delete-b {
+  margin-top: 10px;
+  width:100px;
+  background-color:rgb(22, 122, 230);
+  padding:5px;
+  border-radius:5px;
+  
+}
+.add-b{
+  text-align: center;
+}
+.date-c{
+  height: 300px;
+  padding:30px;
+  background-color: rgb(208, 234, 114);
+}
+.heading {
+  color:rgba(21, 255, 0, 0.765);
+  text-decoration: underline rgb(201, 32, 97);
+  text-decoration-thickness: 5px;
+  font-weight: 1000;
+}
+#userEnrolledCourse{
+
+  font-style: 1200;
+  margin-left: 50px;
+  font-size:20px;
+  font-family:"Sans-serif";
+}
+
+#logout{
+  color: #11d811;
+  font-size:20px;
+  font-weight:700;
+  font-family:"Sans-serif";
+}
+.academy{
+  font-style: 600;
+  font-size:20px;
+  color:yellowgreen;
+  font-family:"Sans-serif";
+  
+}
+.abacus-heading{
+  color:black;
+  font-size: 20px;
+  font-weight:500;
+}
+#userAcademy{
+  color: #fa230b;
+  font-family:"Sans-serif";
+  font-size:20px;
+  font-weight:1000;
+}
+tr{
+  color:white;
+}
+#userEnrolledCourse{
+  font-weight:1000;
+}
+.container-5{
+  background-image: url(https://miro.medium.com/max/3002/1*dP81IJq-tGFxy1rIK3RYsg.png);
+}
+
+.container-6{
+  background-image: url(https://miro.medium.com/max/3002/1*dP81IJq-tGFxy1rIK3RYsg.png);
+  height:50vh;
+  width: 150vh;
+}
+.container-7{
+  text-align: center;
+  background-image: url(https://www.psu.com/wp/wp-content/uploads/2020/08/Alto-Collection-1.jpg);
+  color:white;
+  height:30vh;
+}
+.container-4{
+  background-image: url(https://www.psu.com/wp/wp-content/uploads/2020/08/Alto-Collection-1.jpg);
+}
