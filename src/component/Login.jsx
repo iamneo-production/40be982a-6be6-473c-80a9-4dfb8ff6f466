@@ -58,7 +58,7 @@ const Login = ()=>{
     }
 
     return(
-            <left>
+            <center>
                 <h1 class="heading">
                     
                     ABACUS ACADEMY ADMISSION PORTAL</h1>
@@ -81,7 +81,7 @@ const Login = ()=>{
                 </div> 
             </div>
            
-           </left>
+           </center>
     
     )
 }
